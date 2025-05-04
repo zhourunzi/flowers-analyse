@@ -1,0 +1,10 @@
+<view class="container">
+  <button bindtap="handleUpload">选择图片</button>
+  <image src="{{previewImage}}" wx:if="{{previewImage}}" mode="aspectFit"></image>
+  <button bindtap="analyzeImage">识别植物</button>
+  <button bindtap="uploadToAliyun">上传至阿里云</button>
+  <view wx:if="{{result && result.result && result.result.length}}">
+    <view class="result-title">识别结果：{{ result.result[0].name }}</view>
+    <view class="result-confidence">置信度：{{ result.result[0].formattedScore }}</view>
+  </view>
+</view>   

@@ -1,0 +1,25 @@
+/**index.wxss**/
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}
+
+image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.result-confidence {
+  font-size: 14px;
+  color: #666;
+} 

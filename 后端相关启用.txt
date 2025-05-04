@@ -1,0 +1,2 @@
+3000端口启用：
+node server.js（在vscode终端启用）
